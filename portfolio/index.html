@@ -3,159 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=4, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/ec8c57629e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ec8c57629e.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="index.js"></script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init("sangi2804@gmail.com"); // Replace with your EmailJS User ID
+  })();
+</script>
 
 </head>
 <body>
-    <div id="homepg">
-        <div class="container">
-            <nav>
-                <ul>
-                    <li ><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skill">Skills</a></li>
-                    <li><a href="#projects">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            
-        </div>
-        <div class="home">
-            <div class="lhome">
-                       <h1>Hello,<br> It's Me <span>Sangeetha</span><br> from Theni</h1>
-            </div> 
-            <div class="rhome">
-                        <img src="images/photo1.png" class="rightimg" height="350px" width="100%">
-            </div>
-        </div>
-           
-        
-    </div>
-    <!-- about -->
+  <!-- Navigation -->
+     <header id="homepg">
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-code"></i>
+        <h5>Portfolio</h5>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="home">
+      <div class="lhome" data-aos="fade-right">
+        <p>Hello,</p>
+        <h1>I'm <span>Sangeetha</span></h1>
+        <p>from Theni</p>
+        <a href="./images/SANGEETHA.pdf" class="cv-btn" target="_blank">Download CV</a>
+      </div>
+      <div class="rhome" data-aos="zoom-in">
+        <img src="images/img/IMG.png"  alt="Sangeetha photo" class="rightimg" >
+      </div>
+    </section>
+  </header>
+
+    <!-- About Section -->
     <div class="about" id="about">
-        
-        <div class="labout">
-            <img src="images/photo_2.png" height="450px" width="100%">
-
+        <div class="labout" data-aos="zoom-in">
+            <img src="images/img/Picsart_25-04-21_18-39-55-743-removebg-preview.png" alt="About Me">
         </div>
-        <div class="rabout">
-         <h1 >About</h1> 
-            <p>
-                Enthusiastically looking for the opportunity to work in professional organization. Hardworking and
-            passionate job seeker with strong organizational skill eager to secure entry-level developer position.
-            Ready to help team achieve company goals.
-            </p>   
-            <h1 >Education</h1> 
-            <p>
-                <i class="fa-solid fa-play"></i> B.E - Computer Science and Engineering <i class="fa-solid fa-arrow-right"></i> SNS College of Technology(2021-2025)
-            </p> 
-            <p>
-                <i class="fa-solid fa-play"></i> HSC <i class="fa-solid fa-arrow-right"></i> GRV Higher Scondary School(2020-2021)
-           </p>
-            <p>
-                <i class="fa-solid fa-play"></i> SSLC <i class="fa-solid fa-arrow-right"></i> GRV Higher Scondary School(2018-2019)
-            </p>
-               
-
-               
+        <div class="rabout" data-aos="fade-left">
+            <h1>About</h1>
+            <p>Enthusiastically looking for the opportunity to work in a professional organization. Hardworking and passionate job seeker with strong organizational skills, eager to secure an entry-level developer position. Ready to help teams achieve company goals.</p>
+            <h1>Education</h1>
+            <p><i class="fa-solid fa-play"></i> B.E - Computer Science and Engineering <i class="fa-solid fa-arrow-right"></i> SNS College of Technology (2021-2025)</p>
+            <p><i class="fa-solid fa-play"></i> HSC <i class="fa-solid fa-arrow-right"></i> GRV Higher Secondary School (2020-2021)</p>
+            <p><i class="fa-solid fa-play"></i> SSLC <i class="fa-solid fa-arrow-right"></i> GRV Higher Secondary School (2018-2019)</p>
         </div>
     </div>
-    <!-- skills -->
+
+    <!-- Skills Section -->
     <div class="skill" id="skill">
-  
-        <h1 >Skills</h1> 
+        <h1 data-aos="fade-up">Skills</h1>
         <div class="skill-list">
-            <div >
-                <img src="images/css.png" >
-            </div>
-            <div>
-                <img src="images/Java.png" >
-            </div>
-            <div>
-                <img src="images/JavaScript-Logo.png" >
-            </div>
-            <div>
-                <img src="images/html.png"  >
-            </div>
-            <div>
-                <img src="images/React.png" >
-            </div>
-            <div>
-                <img src="images/springboot..png"  >
-            </div>
-            <div>
-                <img src="images/uiux.webp" style="background-color: white;">
-            </div>
-            <div>
-                <img src="images/sql.webp" >
-
-            </div>
+            <div data-aos="zoom-in"><img src="images/css.png" alt="CSS"></div>
+            <div data-aos="zoom-in"><img src="images/Java.png" alt="Java"></div>
+            <div data-aos="zoom-in"><img src="images/JavaScript-Logo.png" alt="JavaScript"></div>
+            <div data-aos="zoom-in"><img src="images/html.png" alt="HTML"></div>
+            <div data-aos="zoom-in"><img src="images/React.png" alt="React"></div>
+            <div data-aos="zoom-in"><img src="images/springboot..png" alt="Spring Boot"></div>
+            <div data-aos="zoom-in"><img src="images/uiux.webp" style="background-color: white;" alt="UI/UX"></div>
+            <div data-aos="zoom-in"><img src="images/sql.webp" alt="SQL"></div>
         </div>
     </div>
-<!-- projects -->
+
+    <!-- Projects Section -->
     <div class="projects" id="projects">
-        <h1 >Projects</h1> 
+        <h1 data-aos="fade-up">Projects</h1>
         <div class="projectcontainer">
-            <div class="proj">
-                <h3>AGROCULTURE WEB APPLICATION </h3>
-                <div class="layer">
-                    <P>Acts as a buying and selling app for farmers. 
-                    </P>
+            <div class="proj" data-aos="flip-left">
+                <div class="proj_img">
+                    <img src="images/projectimg/Picture1.jpg" alt="Agroculture App">
+                    <div class="proj_title"><h3>AGROCULTURE WEB APPLICATION</h3></div>
+                </div>
+                <div class="layer"><h4>Acts as a buying and selling app for farmers.</h4></div>
             </div>
+            <div class="proj" data-aos="flip-left">
+                <div class="proj_img">
+                    <img src="images/projectimg/Screenshot_20250619_141541.png" alt="E-Commerce">
+                    <div class="proj_title"><h3>E-COMMERCE WEBSITE</h3></div>
+                </div>
+                <div class="layer"><h4>Developed and optimized user interfaces for web applications using React JS.</h4></div>
             </div>
-            <div class="proj">
-                <h3>E-COMMERCE WEBSITE </h3>
-                <div class="layer">
-                <p>Developed and optimized user interfaces for web applications using React JS.
-                </p>
+            <div class="proj" data-aos="flip-left">
+                <div class="proj_img">
+                    <img src="images/projectimg/Screenshot_20250619_141252.png" alt="Library System">
+                    <div class="proj_title"><h3>LIBRARY MANAGEMENT SYSTEM</h3></div>
+                </div>
+                <div class="layer"><h4>Developed a library management system using Spring Boot enabling efficient book management.</h4></div>
             </div>
-            </div>
-            <div class="proj">
-                <h3>LIBRARY MANAGEMENT SYSTEM</h3>
-                <div class="layer">
-                <P>Developed library management system using the Spring boot. Enabling efficient book management.
-                </P>
-            </div>
-            </div>
-            <div class="proj">
-                <h3>ACCENT LIFT </h3>
-                <div class="layer">
-                <P>Education platform for enhance pronunciation.
-                </P>
-            </div>
+            <div class="proj" data-aos="flip-left">
+                <div class="proj_img">
+                    <img src="images/projectimg/Screenshot_20250619_135059.png" alt="Accent Lift">
+                    <div class="proj_title"><h3>ACCENT LIFT</h3></div>
+                </div>
+                <div class="layer"><h4>Education platform to enhance pronunciation.</h4></div>
             </div>
         </div>
-
     </div>
-   <!-- contact -->
+
+    <!-- Contact Section -->
     <div class="contact" id="contact">
         <div class="contcontainer">
-            <div class="contactleft">
-                <h1 >Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>sangi2804@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i>7826965866</p>
-                    <div class="icon">
-                        <a href="mailto:sangi2804@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-                        <a href="https://github.com/S-NGEETHA"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://linkedin.com/in/sangeethaa-m"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
+            <div class="contactleft" data-aos="fade-right">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> sangi2804@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 7826965866</p>
+                <div class="icon">
+                    <a href="mailto:sangi2804@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/S-NGEETHA" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/sangeethaa-m" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
             </div>
-            <div class="contactright">
+            <div class="contactright" data-aos="fade-left">
                 <form>
                     <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="name" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
                     <button type="submit">Submit</button>
                 </form>
             </div>
-            
         </div>
-       
-
     </div>
+
+    <!-- Footer Section -->
+    <footer class="footer" >
+        <p>&copy; Sangeetha Portfolio | All Rights Reserved | Designed with ❤️ </p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1000 });</script>
     
 </body>
 </html>
